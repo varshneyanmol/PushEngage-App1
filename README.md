@@ -26,7 +26,8 @@ Basic API versioning is also done.
 ## Postman collection link:
 https://www.getpostman.com/collections/d0755b9b8b223df45508
 
-All the API are self explanatory
+All the API are self explanatory.
+
 **Code is also documented to ease the understanding**
 
 
@@ -51,12 +52,12 @@ Indexes are:
 2.  {site_id: 1}
 ```
 
-__why this index {"notification_id" : 1,"subscriber_id" : 1}:__ 
+__why index on {"notification_id" : 1,"subscriber_id" : 1}:__ 
 -   This index is made so that the document can be updated as fast as possible when a view or click api is hit.
 -   And fetching data from notification id will also use this index
 
 
-__why this index {site_id: 1}:__ 
+__why index on {site_id: 1}:__ 
 -   This index is made to fetch data by site id because frontend asks for site view/clicks
 
 
