@@ -30,7 +30,8 @@ All the API are self explanatory
 **Code is also documented to ease the understanding**
 
 
-##DB DESIGN:
+## DB DESIGN:
+
 Main collection is: "NotificationViewClickHistory" which stores the notification views and clicks data sent from the browser
 Sample document:
 ```$xslt
